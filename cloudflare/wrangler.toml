@@ -26,7 +26,7 @@ MAX_REQUEST_BODY_BYTES = ""   # empty = 10 MB (Free plan); set to "104857600" fo
 [[d1_databases]]
 binding = "DB"
 database_name = "mangayomi_sync"
-database_id = ""
+database_id = "4e684c45-ca9a-4f27-8023-f353cc525613"
 
 [observability.logs]
 enabled = true
