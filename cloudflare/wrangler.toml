@@ -27,3 +27,7 @@ MAX_REQUEST_BODY_BYTES = ""   # empty = 10 MB (Free plan); set to "104857600" fo
 binding = "DB"
 database_name = "mangayomi_sync"
 database_id = ""
+
+[observability.logs]
+enabled = true
+invocation_logs = true
