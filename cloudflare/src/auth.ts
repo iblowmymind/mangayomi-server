@@ -8,7 +8,7 @@ export interface EnvLike {
 }
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const PBKDF2_ITERATIONS = 210_000;
+const PBKDF2_ITERATIONS = 100_000;
 const PBKDF2_HASH_BITS = 256;
 const PBKDF2_SALT_BYTES = 16;
 const ARGON2_PREFIX = "$argon2";
